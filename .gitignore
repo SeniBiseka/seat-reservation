@@ -1,0 +1,20 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore the IntelliJ project module file
+*.iml
+
+# Ignore compiled output files (generated in the 'out' directory by IntelliJ IDEA)
+out/
+
+# Ignore compiled class files inside the 'src' folder
+**/*.class
+
+# Ignore other IDE-specific and system files
+.DS_Store        # For macOS
+Thumbs.db        # For Windows
+
+# Ignore any JAR, WAR, or EAR files (optional)
+*.jar
+*.war
+*.ear
